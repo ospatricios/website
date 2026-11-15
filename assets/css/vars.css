@@ -1,0 +1,45 @@
+:root {
+  --azul-bacalhau: #004882;
+  --azul-patricios: #202a51;
+  --dourado: #ebb960;
+  --lilas-ondas: #9a9dcf;
+  
+  --espacamento-padrao: 16px;
+  --borda-arredondada: 8px;
+}
+
+.ganache {
+    font-family: "ganache", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--azul-bacalhau);
+}
+
+.gitan-light {
+    font-family: "gitan-latin", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.gitan {
+    font-family: "gitan-latin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gitan-medium{
+    font-family: "gitan-latin", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.gitan-bold {
+    font-family: "gitan-latin", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.gitan-extrabold{
+    font-family: "gitan-latin", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}

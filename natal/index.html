@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MFWVHP8KTJ"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-MFWVHP8KTJ');
+    </script>
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Restaurante Os Patrícios | Culinária Portuguesa e Brasileira em São Lourenço, MG",
+        "image": "https://ospatricios.com.br/assets/images/hero.jpg",
+        "servesCuisine": "Portuguese, Brazilian",
+        "priceRange": "$$",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua Wenceslau Braz, 71 lojas 30, 33 e 34",
+            "addressLocality": "São Lourenço",
+            "addressRegion": "MG",
+            "postalCode": "37400-000",
+            "addressCountry": "BR"
+        },
+        "telephone": "+5535988027379",
+        "openingHours": "Th-Su 11:30-22:30",
+        "menu": "https://ospatricios.com.br/cardapio"
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experimente o melhor da culinária portuguesa e brasileira. Ambiente familiar no coração de São Lourenço, Minas Gerais. Faça sua reserva ou peça delivery online.">
+    <meta property="og:title" content="Restaurante Os Patrícios | Culinária Portuguesa e Brasileira em São Lourenço, MG">
+    <meta property="og:image" content="https://ospatricios.com.br/assets/images/og-banner.jpg">
+    <meta property="og:type" content="restaurant">
+    <title>Encomenda de Ceia de Natal ou Revéillon - Os Patrícios Culinária Luso-Brasileira</title>
+    <link rel="shortcut icon" type="image/png" href="../assets/images/favicon.png"/>
+    <link rel="stylesheet" href="https://use.typekit.net/afk0van.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #0F3B73;
+            --gold: #B8924B;
+            --cream: #FAF6ED;
+            --text-dark: #2C2C2C;
+            --text-light: #555555;
+            --bg-card: #FFFFFF;
+            --cor-secao: #202a51;
+        }
+
+        body {
+            background-color: #EAE3D2;
+            font-family: ferryman, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+
+        .medium {
+            font-family: ferryman, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+
+        .bold {
+            font-family: ferryman, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .extra-bold {
+            font-family: ferryman, sans-serif;
+            font-weight: 800;
+            font-style: normal;
+        }
+
+        .menu-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: url('../assets/images/natal/bg-pergaminho.jpg') top center repeat;
+            padding: 40px;
+            border: 2px solid var(--gold);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            position: relative;
+        }
+
+        /* Borda dupla estilo cardápio clássico */
+        .menu-container::before {
+            content: "";
+            position: absolute;
+            top: 10px; left: 10px; right: 10px; bottom: 10px;
+            border: 1px solid var(--navy);
+            pointer-events: none;
+        }
+
+        /* HEADER */
+        .header {
+            display: flex;
+            flex-direction: row; /* Coloca uma ao lado da outra (padrão do flex) */
+            justify-content: center; /* Centraliza as imagens horizontalmente na página */
+            align-items: center; /* Centraliza as imagens verticalmente */
+            gap: 20px; /* Define o espaço entre as imagens */
+            
+            width: stretch; /* Garante que o header ocupe toda a largura */
+            padding: 20px; /* Dá um respiro em volta das imagens */
+            margin-bottom: 40px;
+            border-bottom: 2px solid var(--gold);
+        }
+
+        .header hr{
+            border: none; /* Remove a formatação padrão do navegador */
+            border-top: 1px solid var(--gold);
+            width: 100%;
+        }
+
+        .img-header {
+        max-width: 100%;
+        height: auto; /* Mantém a proporção da imagem */
+        }
+
+        .subtitle {
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--navy);
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .title-brand {
+            
+            font-size: 3.5em;
+            color: var(--navy);
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .since {
+            font-size: 0.85em;
+            letter-spacing: 2px;
+            color: var(--gold);
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        .event-title {
+            
+            font-size: 2em;
+            color: #8B1E15; /* Vermelho natalino elegante */
+            margin: 20px 0 10px 0;
+        }
+
+        .intro-text {
+            text-align: center;
+            width: 85%;
+            font-size: 1.4em;
+            color: var(--text-light);
+            margin: 0 auto 40px 7.5%;
+        }
+
+        /* SECTION TITLES */
+        .section-title {
+            font-size: 2.8em;
+            color: var(--cor-secao);
+            text-align: center;
+            margin: 40px 0 10px 0;
+            text-shadow: -2px 2px 0 #ebb960;
+        }
+
+        .section-desc {
+            text-align: center;
+            width: 75%;
+            margin-left: 12.5%;
+            font-size: 1.4em;
+            color: var(--text-light);
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        /* ITEM ROWS */
+        .item-row {
+            margin-bottom: 35px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .item-row::after{
+            content: ""; /* Obrigatório, mesmo que vazio */
+            display: block; /* Permite aplicar largura, altura e margens */
+            
+            /* Dimensões do espaço da imagem */
+            width: 250px; 
+            height: 44px;
+            
+            /* Configurações da imagem */
+            background-image: url('../assets/images/natal/separador.png');
+            background-size: contain; /* Faz a imagem caber dentro do espaço sem cortar */
+            background-position: center;
+            background-repeat: no-repeat;
+            
+            /* Margens: 20px em cima/baixo, automático (centralizado) nas laterais */
+            margin: 35px auto -10px auto;
+        }
+
+        .item-row:last-child::after {
+        display: none; 
+        }
+
+       .item-row:last-child {
+            border-bottom: none;
+        }
+
+        .item-header {
+            margin-bottom: 8px;
+        }
+
+        .item-name {
+            font-size: 2.6em;
+            color: #9f3e35;
+            font-weight: 500;
+            text-shadow: -1px 1px 0 #ebb960;
+            margin: 0;
+        }
+
+        .item-price-unit {
+            font-size: 2.2em;
+            font-weight: bold;
+            color:#521914;
+        }
+
+        .item-price-unit sup {
+            font-size: 0.55em;
+            vertical-align: super;
+        }
+
+        .item-desc {
+            font-size: 1.4em;
+            color: var(--text-light);
+            margin-bottom: 8px;
+            width: 75%;
+            margin-left: 12.5%;
+        }
+
+        .item-note {
+            font-size: 1em;
+            font-style: italic;
+            color: #8B1E15;
+            margin-bottom: 15px;
+        }
+
+        /* PRICE CARDS (For Portions) */
+        .price-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 45px;
+            margin-top: 15px;
+        }
+
+        .price-card {
+            position: relative;
+            text-align: center;
+            flex: 1;
+            min-width: 90px;
+        }
+
+        .price-card::after {
+            content: "";
+            position: absolute;
+            
+            /* Dimensões da sua imagem */
+            width: 45px;
+            height: 45px;
+            background-image: url('../assets/images/natal/guirlanda-separadora.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            
+            /* Posicionamento mágico: joga a imagem para a direita, para fora do card */
+            top: 50%; /* Alinha no meio verticalmente */
+            right: -22px; /* Move para a direita (deve ser metade do valor do gap) */
+            transform: translate(50%, -50%); /* Centraliza o ícone exatamente no eixo */
+            
+            z-index: 1; /* Garante que a imagem fique por cima, se o gap for pequeno */
+            }
+
+        .price-card:last-child:after {
+            display: none;
+            }
+
+        .card-price {
+            font-size: 2.2em;
+            font-weight: bold;
+            color:#521914;
+            margin-bottom: -8px;
+        }
+
+        .card-pax {
+            font-size: 1em;
+            text-transform: uppercase;
+            color: #8B1E15;
+            margin-bottom: 2px;
+        }
+
+        .card-per-pax {
+            font-size: 0.85em;
+            color: var(--text-light);
+        }
+
+        .card-per-pax sup {
+            font-size: 0.55em;
+            margin-top: 0.55em;
+        }
+
+
+        /* CONDITIONS */
+        .conditions {
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        .conditions h3 {
+            font-size: 2.8em;
+            color: var(--cor-secao);
+            text-align: center;
+            margin: 40px 0 10px 0;
+            text-shadow: -2px 2px 0 #ebb960;
+        }
+
+        .conditions ul {
+            padding-left: 20px;
+            font-size: 1.4em;
+        }
+
+        .conditions li {
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.4em;
+            color: var(--navy);
+        }
+
+        .footer a {
+            color: var(--navy);
+            text-decoration: none;
+        }
+
+        .footer a:hover{
+            color: var(--gold);
+        }
+
+        /* SHARE BUTTONS */
+        .share-container {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px dashed #D3C4A3;
+            font-family: sans-serif;
+        }
+        .share-title {
+            font-family: ferryman, sans-serif;
+            color: var(--cor-secao);
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .share-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .share-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: var(--navy);
+            color: white;
+            text-decoration: none;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+        .share-btn:hover {
+            transform: scale(1.1);
+        }
+        .share-btn.wa:hover { background-color: #25D366; }
+        .share-btn.fb:hover { background-color: #1877F2; }
+        .share-btn.ig:hover { background-color: #E4405F; }
+        .share-icon {
+            width: 22px;
+            height: 22px;
+            fill: currentColor;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .header { flex-direction: column; border-bottom: 2px solid var(--gold); width: stretch;}
+            .menu-container { padding: 20px; }
+            .title-brand { font-size: 2.5em; }
+            .event-title { font-size: 1.5em; }
+            .item-header { flex-direction: column; }
+            .item-price-unit { margin-top: 5px; }
+            .price-card { min-width: 45%; }
+            .price-card::after {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-container">
+    
+    <!-- HEADER -->
+    <div class="header">
+        <img src="../assets/images/natal/logo.png" class="img-header" alt="Os Patrícios Culinária Luso-Brasileira">
+        <img src="../assets/images/natal/header.png" class="img-header" alt="Encomenda de Ceia de Natal e Revéillon 2026">
+    </div>
+
+    <div class="intro-text ferryman-regular">
+        <p>Preparamos um cardápio especial e artesanal para tornar<br>a sua Ceia de Natal ou Réveillon inesquecível.</p>
+        <p>Por isso, aqui temos nossa tabela de preços para mesas com até <b>10 pessoas</b>.</p>
+        <p>Se precisar de uma ceia para mais convidados, entre em contato conosco que teremos prazer em lhe atender e tirar todas as suas dúvidas.</p>
+    </div>
+
+    <!-- ITENS UNITÁRIOS -->
+    <h2 class="section-title ferryman-bold">Itens Unitários</h2>
+    <div class="section-desc">Estes itens são vendidos por unidade ou porção. Fique livre para escolher quantas unidades quiser.</div>
+
+    <div class="item-row">
+        <div class="item-header">
+            <h3 class="item-name">Chester</h3>
+        </div>
+        <div class="item-desc">Ave natalina marinada em vinho branco, mix de pimentas e noz-moscada. Assada lentamente e recheada com um mix de frutas secas e cogumelos frescos ao vinho branco, finalizada com manteiga de ervas.</div>
+        <div class="item-price-unit">R$ 240<sup>,00</sup></div>
+        <div class="item-note">(Uma unidade serve aproximadamente de 6 a 8 pessoas)</div>
+    </div>
+
+    <div class="item-row">
+        <div class="item-header">
+            <h3 class="item-name">Tender</h3>
+        </div>
+        <div class="item-desc">Presunto natalino clássico assado com cravos-da-índia, regado a uma calda cítrica rica em suco de laranja, mel e azeite.</div>
+        <div class="item-price-unit">R$ 130<sup>,00</sup></div>
+        <div class="item-note">(Uma unidade serve aproximadamente de 5 a 6 pessoas)</div>
+    </div>
+
+    <div class="item-row">
+        <div class="item-header">
+            <h3 class="item-name">Pernil de Cordeiro</h3>
+        </div>
+        <div class="item-desc">Peça inteira de pernil de cordeiro marinada em vinho branco, alho, folhas de hortelã e especiarias refinadas como pimenta síria e anis, assado para derreter na boca.</div>
+        <div class="item-price-unit">R$ 190<sup>,00</sup></div>
+        <div class="item-note">(Uma unidade serve aproximadamente de 5 a 6 pessoas)</div>
+    </div>
+
+    <div class="item-row">
+        <div class="item-header">
+            <h3 class="item-name">Bolinho de Bacalhau</h3>
+        </div>
+        <div class="item-desc">Nosso bolinho de bacalhau, o Melhor do Sul de Minas.</div>
+        <div class="item-price-unit">R$ 50<sup>,00</sup></div>
+        <div class="item-note">Porção com 20 unidades já fritas</div>
+    </div>
+
+    <div class="item-row">
+        <div class="item-header">
+            <h3 class="item-name">Rabanada Tradicional</h3>
+        </div>
+        <div class="item-desc">Pão artesanal de rabanada macio por dentro, dourado no óleo, e finalizado com a clássica mistura afetiva de açúcar e canela.</div>
+        <div class="item-price-unit">R$ 35<sup>,00</sup></div>
+        <div class="item-note">Porção com 6 unidades</div>
+    </div>
+
+    <div class="item-row">
+        <div class="item-header">
+            <h3 class="item-name">Rabanada Recheada</h3>
+        </div>
+        <div class="item-desc">A nossa clássica rabanada artesanal elevada a outro nível, servida quentinha com um farto coração cremoso de Nutella ou Doce de Leite, e envolta na tradicional mistura de açúcar e canela.</div>
+        <div class="item-price-unit">R$ 50<sup>,00</sup></div>
+        <div class="item-note">Porção com 6 unidades</div>
+    </div>
+
+
+    <!-- PORÇÕES -->
+    <h2 class="section-title">Porções</h2>
+    <div class="section-desc">Estes itens são vendidos por porções. As porções foram calculadas para o número de pessoas informadas. Para pedidos maiores, os valores são mais vantajosos.</div>
+
+    <!-- Prato 1 -->
+    <div class="item-row">
+        <h3 class="item-name">Bacalhoada à Moda</h3>
+        <div class="item-desc">Lascas generosas de bacalhau Gadhus Morhua, banhadas em azeite, assadas com batatas, tomates-cereja, cebola, brócolis, azeitonas verdes e pimentões coloridos.</div>
+        <div class="price-grid">
+            <div class="price-card"><div class="card-price">260,</div><div class="card-pax">2 Pessoas</div><div class="card-per-pax">130<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">468,</div><div class="card-pax">4 Pessoas</div><div class="card-per-pax">117<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">684,</div><div class="card-pax">6 Pessoas</div><div class="card-per-pax">114<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">884,</div><div class="card-pax">8 Pessoas</div><div class="card-per-pax">110<sup>,50</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">1.040,</div><div class="card-pax">10 Pessoas</div><div class="card-per-pax">104<sup>,00</sup>/pessoa</div></div>
+        </div>
+    </div>
+
+    <!-- Prato 2 -->
+    <div class="item-row">
+        <h3 class="item-name">Bacalhau com Natas</h3>
+        <div class="item-desc">Uma iguaria cremosa: bacalhau Gadhus Morhua desfiado, batatas em cubos e pimentões num creme rico de natas e azeite, gratinado com queijo parmesão e farinha panko.</div>
+        <div class="price-grid">
+            <div class="price-card"><div class="card-price">260,</div><div class="card-pax">2 Pessoas</div><div class="card-per-pax">130<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">468,</div><div class="card-pax">4 Pessoas</div><div class="card-per-pax">117<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">684,</div><div class="card-pax">6 Pessoas</div><div class="card-per-pax">114<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">880,</div><div class="card-pax">8 Pessoas</div><div class="card-per-pax">110<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">1.040,</div><div class="card-pax">10 Pessoas</div><div class="card-per-pax">104<sup>,00</sup>/pessoa</div></div>
+        </div>
+    </div>
+
+    <!-- Prato 3 -->
+    <div class="item-row">
+        <h3 class="item-name">Salpicão de Bacalhau</h3>
+        <div class="item-desc">A versão nobre do salpicão: bacalhau desfiado, farta porção de cenoura, azeitonas, pimentão e cebola num creme perfumado com azeite, salsa e coentro.</div>
+        <div class="price-grid">
+            <div class="price-card"><div class="card-price">82,</div><div class="card-pax">2 Pessoas</div><div class="card-per-pax">41<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">148,</div><div class="card-pax">4 Pessoas</div><div class="card-per-pax">37<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">216,</div><div class="card-pax">6 Pessoas</div><div class="card-per-pax">36<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">279,</div><div class="card-pax">8 Pessoas</div><div class="card-per-pax">34<sup>,88</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">328,</div><div class="card-pax">10 Pessoas</div><div class="card-per-pax">32<sup>,80</sup>/pessoa</div></div>
+        </div>
+    </div>
+
+    <!-- Prato 4 -->
+    <div class="item-row">
+        <h3 class="item-name">Lombo Recheado</h3>
+        <div class="item-desc">Suculento lombo de porco aberto e recheado com fatias de bacon, abacaxi e temperos, repousando num rico caldo de vinho branco, cebola e azeite.</div>
+        <div class="price-grid">
+            <div class="price-card"><div class="card-price">60,</div><div class="card-pax">2 Pessoas</div><div class="card-per-pax">30<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">108,</div><div class="card-pax">4 Pessoas</div><div class="card-per-pax">27<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">159,</div><div class="card-pax">6 Pessoas</div><div class="card-per-pax">26<sup>,50</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">204,</div><div class="card-pax">8 Pessoas</div><div class="card-per-pax">25<sup>,50</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">240,</div><div class="card-pax">10 Pessoas</div><div class="card-per-pax">24<sup>,00</sup>/pessoa</div></div>
+        </div>
+    </div>
+
+    <!-- Prato 5 -->
+    <div class="item-row">
+        <h3 class="item-name">Salpicão de Frango</h3>
+        <div class="item-desc">Sobrecoxa desfiada, cenoura, milho, azeitonas e presunto, envolvidos em um creme fresco de maionese, creme de leite e mostarda, coberto com batata palha.</div>
+        <div class="price-grid">
+            <div class="price-card"><div class="card-price">38,</div><div class="card-pax">2 Pessoas</div><div class="card-per-pax">19<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">69,</div><div class="card-pax">4 Pessoas</div><div class="card-per-pax">17<sup>,25</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">100,</div><div class="card-pax">6 Pessoas</div><div class="card-per-pax">16<sup>,67</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">130,</div><div class="card-pax">8 Pessoas</div><div class="card-per-pax">16<sup>,25</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">152,</div><div class="card-pax">10 Pessoas</div><div class="card-per-pax">15<sup>,20</sup>/pessoa</div></div>
+        </div>
+    </div>
+
+    <!-- Prato 6 -->
+    <div class="item-row">
+        <h3 class="item-name">Farofa Natalina</h3>
+        <div class="item-desc">Farofa crocante e molhadinha à base de farinha de mandioca na manteiga, repleta de bacon em cubos, ameixas doces, alho e lascas de cebola frita.</div>
+        <div class="price-grid">
+            <div class="price-card"><div class="card-price">30,</div><div class="card-pax">2 Pessoas</div><div class="card-per-pax">15<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">54,</div><div class="card-pax">4 Pessoas</div><div class="card-per-pax">13<sup>,50</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">79,</div><div class="card-pax">6 Pessoas</div><div class="card-per-pax">13<sup>,17</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">102,</div><div class="card-pax">8 Pessoas</div><div class="card-per-pax">12<sup>,75</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">120,</div><div class="card-pax">10 Pessoas</div><div class="card-per-pax">12<sup>,00</sup>/pessoa</div></div>
+        </div>
+    </div>
+
+    <!-- Prato 7 -->
+    <div class="item-row">
+        <h3 class="item-name">Arroz à Grega / Colorido</h3>
+        <div class="item-desc">Arroz festivo salteado com cubinhos de presunto, cenoura, pimentões, ervilhas fresquinhas e uvas passas pretas e brancas.</div>
+        <div class="price-grid">
+            <div class="price-card"><div class="card-price">24,</div><div class="card-pax">2 Pessoas</div><div class="card-per-pax">12<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">44,</div><div class="card-pax">4 Pessoas</div><div class="card-per-pax">11<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">63,</div><div class="card-pax">6 Pessoas</div><div class="card-per-pax">10<sup>,50</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">82,</div><div class="card-pax">8 Pessoas</div><div class="card-per-pax">10<sup>,25</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">96,</div><div class="card-pax">10 Pessoas</div><div class="card-per-pax">9<sup>,60</sup>/pessoa</div></div>
+        </div>
+    </div>
+
+    <!-- Prato 8 -->
+    <div class="item-row">
+        <h3 class="item-name">Arroz Branco</h3>
+        <div class="item-desc">Arroz tradicional, cozido soltinho no óleo e alho, base perfeita para os molhos da ceia.</div>
+        <div class="price-grid">
+            <div class="price-card"><div class="card-price">15,</div><div class="card-pax">2 Pessoas</div><div class="card-per-pax">7<sup>,50</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">27,</div><div class="card-pax">4 Pessoas</div><div class="card-per-pax">6<sup>,75</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">40,</div><div class="card-pax">6 Pessoas</div><div class="card-per-pax">6<sup>,67</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">51,</div><div class="card-pax">8 Pessoas</div><div class="card-per-pax">6<sup>,38</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">60,</div><div class="card-pax">10 Pessoas</div><div class="card-per-pax">6<sup>,00</sup>/pessoa</div></div>
+        </div>
+    </div>
+
+    <!-- Prato 9 -->
+    <div class="item-row">
+        <h3 class="item-name">Castanha Portuguesa Assada</h3>
+        <div class="item-desc">Castanhas portuguesas selecionadas, rusticamente assadas no sal grosso para realçar todo o seu sabor natural. O acompanhamento perfeito para a ceia ou para beliscar durante a noite.</div>
+        <div class="price-grid">
+            <div class="price-card"><div class="card-price">60,</div><div class="card-pax">2 Pessoas</div><div class="card-per-pax">30<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">108,</div><div class="card-pax">4 Pessoas</div><div class="card-per-pax">27<sup>,00</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">158,</div><div class="card-pax">6 Pessoas</div><div class="card-per-pax">26<sup>,33</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">204,</div><div class="card-pax">8 Pessoas</div><div class="card-per-pax">25<sup>,50</sup>/pessoa</div></div>
+            <div class="price-card"><div class="card-price">240,</div><div class="card-pax">10 Pessoas</div><div class="card-per-pax">24<sup>,00</sup>/pessoa</div></div>
+        </div>
+    </div>
+
+
+    <!-- CONDIÇÕES -->
+    <div class="conditions">
+        <h3>Condições de Encomenda e Pagamento</h3>
+        <ul>
+            <li><strong>Reserva e Confirmação:</strong> A sua encomenda só será devidamente confirmada mediante o pagamento de 50% de sinal do valor total do pedido.</li>
+            <li><strong>Pagamento do Saldo (Restante):</strong> Os 50% restantes deverão ser pagos no momento da retirada ou entrega da ceia (em PIX ou Dinheiro).</li>
+            <li><strong>Pagamento Facilitado:</strong> Caso prefira, aceitamos o pagamento do valor total em até 3x no cartão de crédito (incidirão as taxas de juros da operadora).</li>
+            <li><strong>Taxa de Entrega:</strong> Para a comodidade de receber no seu endereço, é cobrada uma taxa fixa de R$ 15,00 (consulte a área de abrangência). Você também pode optar por retirar no local sem custo.</li>
+        </ul>
+
+        <h3 style="margin-top: 30px;">Política de Cancelamento</h3>
+        <ul>
+            <li>O nosso trabalho exige a compra antecipada de insumos frescos e de alta qualidade. Por este motivo, cancelamentos ou alterações no pedido serão aceitos impreterivelmente até o dia <strong>14/12/2026</strong>.</li>
+            <li>Para cancelamentos realizados dentro deste prazo, será retido 5% do valor total da encomenda a título de custos operacionais e administrativos.</li>
+            <li>Não haverá devolução do sinal para cancelamentos realizados após o dia 14/12/2026.</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>Faça já a sua reserva e garanta um Natal ou Revéillon delicioso e sem preocupações!<br>
+        <strong><a href="https://instagram.com/ospatricios.mg" target="_blank">@ospatricios.mg</a> | <a href="https://wa.me/5535988027379" target="_blank">(35) 98802-7379</a></strong></p>
+    </div>
+
+    <div class="share-container">
+        <div class="share-title">Compartilhe nosso cardápio</div>
+        <div class="share-buttons">
+            <!-- WhatsApp -->
+            <a href="https://api.whatsapp.com/send?text=Veja%20o%20delicioso%20card%C3%A1pio%20de%20Natal%20de%20Os%20Patr%C3%ADcios!%20Acesse%20o%20link:%20https://ospatricios.com.br/natal" target="_blank" class="share-btn wa" title="Compartilhar no WhatsApp">
+                <svg class="share-icon" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a5.227 5.227 0 0 0-.571-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            </a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/sharer/sharer.php?u=https://ospatricios.com.br/natal" target="_blank" class="share-btn fb" title="Compartilhar no Facebook">
+                <svg class="share-icon" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://instagram.com/ospatricios.mg" target="_blank" class="share-btn ig" title="Visite nosso Instagram">
+                <svg class="share-icon" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    let cart = [];
+    const cartButton = document.createElement('button');
+    cartButton.id = 'cart-button';
+    cartButton.textContent = 'Continuar meu pedido';
+    cartButton.style.display = 'none';
+    cartButton.style.position = 'fixed';
+    cartButton.style.bottom = '20px';
+    cartButton.style.right = '20px';
+    cartButton.style.padding = '15px 30px';
+    cartButton.style.backgroundColor = '#9f3e35';
+    cartButton.style.color = '#fff';
+    cartButton.style.border = 'none';
+    cartButton.style.borderRadius = '5px';
+    cartButton.style.fontSize = '1.2em';
+    cartButton.style.cursor = 'pointer';
+    cartButton.style.boxShadow = '0 4px 10px rgba(0,0,0,0.3)';
+    cartButton.style.zIndex = '1000';
+    document.body.appendChild(cartButton);
+
+    const lightbox = document.createElement('div');
+    lightbox.id = 'lightbox';
+    lightbox.style.display = 'none';
+    lightbox.style.position = 'fixed';
+    lightbox.style.top = '0';
+    lightbox.style.left = '0';
+    lightbox.style.width = '100%';
+    lightbox.style.height = '100%';
+    lightbox.style.backgroundColor = 'rgba(0,0,0,0.8)';
+    lightbox.style.zIndex = '1001';
+    lightbox.style.justifyContent = 'center';
+    lightbox.style.alignItems = 'center';
+    
+    const lightboxContent = document.createElement('div');
+    lightboxContent.style.backgroundColor = '#FAF6ED';
+    lightboxContent.style.padding = '30px';
+    lightboxContent.style.borderRadius = '8px';
+    lightboxContent.style.width = '90%';
+    lightboxContent.style.maxWidth = '500px';
+    lightboxContent.style.maxHeight = '90vh';
+    lightboxContent.style.overflowY = 'auto';
+    lightboxContent.style.border = '2px solid #B8924B';
+    lightboxContent.style.position = 'relative';
+
+    const closeBtn = document.createElement('span');
+    closeBtn.innerHTML = '&times;';
+    closeBtn.style.position = 'absolute';
+    closeBtn.style.top = '10px';
+    closeBtn.style.right = '20px';
+    closeBtn.style.fontSize = '2em';
+    closeBtn.style.cursor = 'pointer';
+    closeBtn.style.color = '#0F3B73';
+    closeBtn.onclick = () => lightbox.style.display = 'none';
+
+    lightboxContent.appendChild(closeBtn);
+    lightbox.appendChild(lightboxContent);
+    document.body.appendChild(lightbox);
+
+    function updateCartButton() {
+        if (cart.length > 0) {
+            cartButton.style.display = 'block';
+        } else {
+            cartButton.style.display = 'none';
+            lightbox.style.display = 'none'; // Auto-close if empty
+        }
+    }
+
+    function parsePrice(priceStr) {
+        let cleaned = priceStr.replace(/<[^>]*>?/gm, '');
+        cleaned = cleaned.replace(/[R$]/g, '').trim();
+        cleaned = cleaned.replace(/\./g, '');
+        cleaned = cleaned.replace(',', '.');
+        let val = parseFloat(cleaned);
+        return isNaN(val) ? 0 : val;
+    }
+
+    function syncUI() {
+        document.querySelectorAll('.add-btn').forEach(btn => {
+            const itemName = btn.dataset.itemName;
+            const inCart = cart.find(item => item.name === itemName);
+            const cardEl = btn.closest('.price-card');
+            
+            if (inCart) {
+                btn.textContent = 'Remover';
+                btn.style.backgroundColor = '#8B1E15';
+                if (cardEl) {
+                    cardEl.style.backgroundColor = '#E2EFDA';
+                    cardEl.style.border = '2px solid #521914';
+                }
+            } else {
+                btn.textContent = 'Adicionar';
+                btn.style.backgroundColor = '#0F3B73';
+                if (cardEl) {
+                    cardEl.style.backgroundColor = '';
+                    cardEl.style.border = '';
+                }
+            }
+        });
+        updateCartButton();
+        if (lightbox.style.display === 'flex' && cart.length > 0) {
+            renderCartHTML();
+        }
+    }
+
+    function toggleItem(baseName, itemName, priceHTML, isPortion) {
+        const price = parsePrice(priceHTML);
+        
+        if (isPortion) {
+            const existingIndex = cart.findIndex(i => i.name === itemName);
+            // Ao adicionar uma porção, limpamos qualquer outra porção do mesmo prato
+            cart = cart.filter(i => i.baseName !== baseName);
+            if (existingIndex === -1) {
+                cart.push({ name: itemName, baseName: baseName, price: price, qty: 1, isPortion: true });
+            }
+        } else {
+            const existingIndex = cart.findIndex(i => i.name === itemName);
+            if (existingIndex !== -1) {
+                cart.splice(existingIndex, 1);
+            } else {
+                cart.push({ name: itemName, baseName: baseName, price: price, qty: 1, isPortion: false });
+            }
+        }
+        syncUI();
+    }
+
+    window.removeFromCart = function(itemName) {
+        cart = cart.filter(item => item.name !== itemName);
+        syncUI();
+    };
+
+    const itemRows = document.querySelectorAll('.item-row');
+    itemRows.forEach(row => {
+        const nameEl = row.querySelector('.item-name');
+        const priceUnitEl = row.querySelector('.item-price-unit');
+        const priceGrid = row.querySelector('.price-grid');
+        
+        if (nameEl) {
+            const baseName = nameEl.textContent.trim();
+            if (priceGrid) {
+                const priceCards = priceGrid.querySelectorAll('.price-card');
+                priceCards.forEach(card => {
+                    const addBtn = document.createElement('button');
+                    addBtn.className = 'add-btn';
+                    addBtn.style.display = 'block';
+                    addBtn.style.margin = '10px auto 0 auto';
+                    addBtn.style.padding = '5px 15px';
+                    addBtn.style.backgroundColor = '#0F3B73';
+                    addBtn.style.color = 'white';
+                    addBtn.style.border = 'none';
+                    addBtn.style.borderRadius = '4px';
+                    addBtn.style.cursor = 'pointer';
+                    addBtn.style.fontSize = '0.9em';
+                    addBtn.style.fontFamily ='ferryman, sans-serif';
+
+                    const priceEl = card.querySelector('.card-price');
+                    const paxEl = card.querySelector('.card-pax');
+                    const itemName = `${baseName} (${paxEl.textContent.trim()})`;
+                    
+                    addBtn.dataset.baseName = baseName;
+                    addBtn.dataset.itemName = itemName;
+                    addBtn.dataset.isPortion = 'true';
+                    
+                    addBtn.onclick = () => toggleItem(baseName, itemName, priceEl.innerHTML, true);
+                    card.appendChild(addBtn);
+                });
+            } else if (priceUnitEl) {
+                const addBtn = document.createElement('button');
+                addBtn.className = 'add-btn';
+                addBtn.style.display = 'block';
+                addBtn.style.margin = '10px auto 0 auto';
+                addBtn.style.padding = '10px 20px';
+                addBtn.style.backgroundColor = '#0F3B73';
+                addBtn.style.color = 'white';
+                addBtn.style.border = 'none';
+                addBtn.style.borderRadius = '4px';
+                addBtn.style.cursor = 'pointer';
+                addBtn.style.fontSize = '1em';
+                addBtn.style.fontFamily ='ferryman, sans-serif';
+                
+                addBtn.dataset.baseName = baseName;
+                addBtn.dataset.itemName = baseName;
+                addBtn.dataset.isPortion = 'false';
+                
+                addBtn.onclick = () => toggleItem(baseName, baseName, priceUnitEl.innerHTML, false);
+                row.appendChild(addBtn);
+            }
+        }
+    });
+
+    function renderCartHTML() {
+        let total = 0;
+        let cartHTML = '<h2 style="color:#0F3B73; text-align:center; font-family:ferryman,sans-serif;">Resumo do Pedido</h2><hr style="border:1px solid #B8924B; margin-bottom:20px;">';
+        
+        cartHTML += '<div style="max-height: 250px; overflow-y: auto; margin-bottom: 20px;">';
+        cart.forEach((item) => {
+            const itemTotal = item.price * item.qty;
+            total += itemTotal;
+            cartHTML += `<div style="display:flex; justify-content:space-between; margin-bottom:10px; border-bottom:1px solid #ddd; padding-bottom:5px; font-family: sans-serif; align-items:center;">
+                            <div style="flex:1; padding-right:10px;">
+                                <strong>${item.name}</strong>
+                            </div>
+                            <div style="display:flex; align-items:center; white-space:nowrap;">
+                                <span style="font-weight:bold; color:#8B1E15; margin-right:15px;">
+                                    R$ ${itemTotal.toFixed(2).replace('.', ',')}
+                                </span>
+                                <button onclick="removeFromCart('${item.name}')" style="background:none; border:none; color:#8B1E15; font-size:1.2em; cursor:pointer; padding:0;" title="Remover item">&#128465;</button>
+                            </div>
+                         </div>`;
+        });
+        cartHTML += '</div>';
+        
+        cartHTML += `<div style="text-align:right; font-size:1.4em; font-weight:bold; color:#0F3B73; margin-bottom:20px; font-family: sans-serif;">Total: R$ ${total.toFixed(2).replace('.', ',')}</div>`;
+        
+        cartHTML += `
+            <form id="order-form" style="font-family: sans-serif;">
+                <input type="text" id="c-name" placeholder="Seu Nome Completo" required style="width:100%; padding:10px; margin-bottom:10px; box-sizing:border-box; border:1px solid #ccc; border-radius:4px;">
+                
+                <select id="c-date" required style="width:100%; padding:10px; margin-bottom:10px; box-sizing:border-box; border:1px solid #ccc; border-radius:4px;">
+                    <option value="" disabled selected>Data da Encomenda</option>
+                    <option value="Dia 24 (Natal)">Dia 24 (Natal)</option>
+                    <option value="Dia 31 (Réveillon)">Dia 31 (Réveillon)</option>
+                </select>
+
+                <select id="c-service" required style="width:100%; padding:10px; margin-bottom:10px; box-sizing:border-box; border:1px solid #ccc; border-radius:4px;">
+                    <option value="" disabled selected>Forma de Recebimento</option>
+                    <option value="Retirada">Retirada no Local</option>
+                    <option value="Entrega">Entrega (Taxa sob consulta)</option>
+                </select>
+                
+                <input type="text" id="c-address" placeholder="Endereço Completo (Se for entrega)" style="width:100%; padding:10px; margin-bottom:20px; box-sizing:border-box; border:1px solid #ccc; border-radius:4px;">
+
+                <button type="submit" style="width:100%; padding:15px; background-color:#25D366; color:white; border:none; border-radius:5px; font-size:1.2em; font-weight:bold; cursor:pointer;">
+                    Enviar Pedido por WhatsApp
+                </button>
+            </form>
+        `;
+
+        lightboxContent.innerHTML = '';
+        lightboxContent.appendChild(closeBtn);
+        lightboxContent.insertAdjacentHTML('beforeend', cartHTML);
+        
+        document.getElementById('order-form').onsubmit = (e) => {
+            e.preventDefault();
+            const name = document.getElementById('c-name').value;
+            const date = document.getElementById('c-date').value;
+            const service = document.getElementById('c-service').value;
+            const address = document.getElementById('c-address').value;
+            
+            let message = `*NOVO PEDIDO - OS PATRÍCIOS* 🎄\n\n`;
+            message += `*Cliente:* ${name}\n`;
+            message += `*Data:* ${date}\n`;
+            message += `*Serviço:* ${service}\n`;
+            if (service === 'Entrega' && address) {
+                message += `*Endereço:* ${address}\n`;
+            }
+            message += `\n*ITENS:*\n`;
+            
+            cart.forEach(item => {
+                message += `- 1x ${item.name} (R$ ${item.price.toFixed(2).replace('.', ',')})\n`;
+            });
+            message += `\n*TOTAL ESTIMADO: R$ ${total.toFixed(2).replace('.', ',')}*\n`;
+            message += `(Aguardando confirmação do valor de entrega, se aplicável)`;
+            
+            const encodedMsg = encodeURIComponent(message);
+            window.open(`https://wa.me/5535988027379?text=${encodedMsg}`, '_blank');
+        };
+    }
+
+    cartButton.onclick = () => {
+        renderCartHTML();
+        lightbox.style.display = 'flex';
+    };
+    
+    syncUI();
+});
+</script>
+<style>
+    .add-btn { transition: background-color 0.2s, opacity 0.2s; }
+    .add-btn:hover { opacity: 0.9; }
+</style>
+
+</body>
+</html>

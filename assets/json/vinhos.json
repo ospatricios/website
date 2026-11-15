@@ -1,0 +1,190 @@
+{
+  "Branco": [
+    {
+      "nome": "EA Cartuxa",
+      "valor": 190.0,
+      "regiao": "Alentejo",
+      "uvas": ["Antão Vaz", "Arinto", "Roupeiro"],
+      "teor_alcoolico": 13.0,
+      "corpo": "3", "taninos": "1", "docura": "2", "acidez": "4",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "Pedra Cancela",
+      "valor": 178.0,
+      "regiao": "Dão",
+      "uvas": ["Malvasia Fina", "Encruzado", "Cerceal Branco"],
+      "teor_alcoolico": 12.5,
+      "corpo": "3", "taninos": "1", "docura": "1", "acidez": "4",
+      "classificacao": "Seco"
+    }
+  ],
+  "Verde": [
+    {
+      "nome": "Porta 6",
+      "valor": 0.0,
+      "regiao": "Vinho Verde",
+      "uvas": ["Loureiro", "Trajadura", "Arinto"],
+      "teor_alcoolico": 9.5,
+      "corpo": "2", "taninos": "1", "docura": "2", "acidez": "5",
+      "classificacao": "Meio Seco"
+    },
+    {
+      "nome": "Casal Garcia",
+      "valor": 144.0,
+      "regiao": "Vinho Verde",
+      "uvas": ["Trajadura", "Loureiro", "Arinto", "Azal"],
+      "teor_alcoolico": 9.5,
+      "corpo": "1", "taninos": "1", "docura": "3", "acidez": "5",
+      "classificacao": "Meio Seco"
+    }
+  ],
+  "Rosé": [
+    {
+      "nome": "Portada",
+      "valor": 169.0,
+      "regiao": "Lisboa",
+      "uvas": ["Shiraz", "Cabernet Sauvignon", "Caladoc", "Tempranillo", "Pinot Noir"],
+      "teor_alcoolico": 12.0,
+      "corpo": "2", "taninos": "1", "docura": "3", "acidez": "4",
+      "classificacao": "Meio Seco"
+    }
+  ],
+  "Tinto": [
+    {
+      "nome": "Quinta da Bacalhoa",
+      "valor": 475.0,
+      "regiao": "Península de Setúbal",
+      "uvas": ["Cabernet Sauvignon", "Merlot"],
+      "teor_alcoolico": 14.0,
+      "corpo": "5", "taninos": "4", "docura": "2", "acidez": "4",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "Esporão Reserva",
+      "valor": 416.0,
+      "regiao": "Alentejo",
+      "uvas": ["Alicante Bouschet", "Touriga Nacional", "Aragonez", "Cabernet Sauvignon"],
+      "teor_alcoolico": 14.5,
+      "corpo": "5", "taninos": "4", "docura": "2", "acidez": "4",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "Papa Figos",
+      "valor": 229.0,
+      "regiao": "Douro",
+      "uvas": ["Tinta Roriz", "Tinta Barroca", "Touriga Franca", "Touriga Nacional"],
+      "teor_alcoolico": 13.5,
+      "corpo": "4", "taninos": "3", "docura": "2", "acidez": "3",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "Porta 6 Reserva",
+      "valor": 195.0,
+      "regiao": "Lisboa",
+      "uvas": ["Syrah", "Alicante Bouschet", "Cabernet Sauvignon"],
+      "teor_alcoolico": 13.5,
+      "corpo": "4", "taninos": "3", "docura": "3", "acidez": "3",
+      "classificacao": "Meio Seco"
+    },
+    {
+      "nome": "Porca de Murça",
+      "valor": 190.0,
+      "regiao": "Douro",
+      "uvas": ["Touriga Franca", "Touriga Nacional", "Tinta Roriz", "Tinta Barroca"],
+      "teor_alcoolico": 13.5,
+      "corpo": "3", "taninos": "3", "docura": "2", "acidez": "3",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "EA Cartuxa",
+      "valor": 190.0,
+      "regiao": "Alentejo",
+      "uvas": ["Aragonez", "Trincadeira", "Alicante Bouschet", "Syrah"],
+      "teor_alcoolico": 13.5,
+      "corpo": "3", "taninos": "3", "docura": "2", "acidez": "3",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "Mariana",
+      "valor": 185.0,
+      "regiao": "Alentejo",
+      "uvas": ["Alicante Bouschet", "Aragonez", "Cabernet Sauvignon", "Trincadeira"],
+      "teor_alcoolico": 14.0,
+      "corpo": "4", "taninos": "3", "docura": "2", "acidez": "3",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "Monte dos Pinheiros",
+      "valor": 160.0,
+      "regiao": "Alentejo",
+      "uvas": ["Aragonez", "Trincadeira", "Alicante Bouschet", "Syrah"],
+      "teor_alcoolico": 13.5,
+      "corpo": "3", "taninos": "3", "docura": "2", "acidez": "3",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "Portada DFJ Reserva",
+      "valor": 150.0,
+      "regiao": "Lisboa",
+      "uvas": ["Tinta Roriz", "Alicante Bouschet", "Cabernet Sauvignon", "Caladoc", "Castelão", "Pinot Noir", "Touriga Nacional"],
+      "teor_alcoolico": 13.0,
+      "corpo": "4", "taninos": "3", "docura": "3", "acidez": "3",
+      "classificacao": "Meio Seco"
+    },
+    {
+      "nome": "Bons Ventos",
+      "valor": 148.0,
+      "regiao": "Lisboa",
+      "uvas": ["Castelão", "Camarate", "Tinta Miúda", "Touriga Nacional"],
+      "teor_alcoolico": 13.0,
+      "corpo": "3", "taninos": "3", "docura": "3", "acidez": "3",
+      "classificacao": "Meio Seco"
+    },
+    {
+      "nome": "Periquita",
+      "valor": 146.0,
+      "regiao": "Península de Setúbal",
+      "uvas": ["Castelão", "Trincadeira", "Aragonez"],
+      "teor_alcoolico": 13.0,
+      "corpo": "3", "taninos": "3", "docura": "2", "acidez": "4",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "Casal Garcia",
+      "valor": 144.0,
+      "regiao": "Vinho Verde",
+      "uvas": ["Touriga Nacional", "Trincadeira"],
+      "teor_alcoolico": 13.0,
+      "corpo": "2", "taninos": "2", "docura": "3", "acidez": "3",
+      "classificacao": "Meio Seco"
+    },
+    {
+      "nome": "Alfacinha",
+      "valor": 140.0,
+      "regiao": "Lisboa",
+      "uvas": ["Touriga Nacional", "Tinta Roriz"],
+      "teor_alcoolico": 13.0,
+      "corpo": "3", "taninos": "3", "docura": "3", "acidez": "3",
+      "classificacao": "Meio Seco"
+    },
+    {
+      "nome": "Esporão Colheita",
+      "valor": 229.0,
+      "regiao": "Alentejo",
+      "uvas": ["Alicante Bouschet", "Touriga Nacional", "Aragonez", "Cabernet Sauvignon"],
+      "teor_alcoolico": 14.0,
+      "corpo": "4", "taninos": "3", "docura": "2", "acidez": "4",
+      "classificacao": "Seco"
+    },
+    {
+      "nome": "Cartuxa Évora Colheita",
+      "valor": 416.0,
+      "regiao": "Alentejo",
+      "uvas": ["Aragonez", "Trincadeira", "Alicante Bouschet"],
+      "teor_alcoolico": 14.5,
+      "corpo": "4", "taninos": "4", "docura": "2", "acidez": "4",
+      "classificacao": "Seco"
+    }
+  ]
+}

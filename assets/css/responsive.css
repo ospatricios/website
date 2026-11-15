@@ -1,0 +1,216 @@
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+
+    .header-right {
+        display: block;
+        float: right;
+        padding: 6px 20px;
+    }
+
+    .header-headline {
+        text-align: left;
+        max-width: 85%;
+        /* padding-top: 75px; */
+    }
+
+    .header-running-text {
+        line-height: 30px;
+        margin: 0;
+        text-align: left;
+    }
+
+    .hero {
+        max-height: 655px;
+        min-height: 585px;
+    }
+
+    .hero-button {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .hero-right {
+        text-align: left;
+    }
+
+
+    .ipad {
+        display: block;
+        position: absolute;
+        right: 0px;
+        z-index: 1;
+        height: 500px;
+        /* transform: rotate(-6deg); */
+        max-width: 47%;
+    }
+
+    .ipad-screen {
+        display: block;
+        padding-bottom: 40px;
+        margin-top: 19px;
+        right: 1px;
+    }
+
+    .feature-section {
+        padding-top: 60px;
+    }
+
+    .features-headline {
+        color: white;
+        padding-bottom: 70px;
+    }
+
+    .logos {
+        padding: 30px;
+        max-width: 100%;
+    }
+
+    .white-section-text {
+        text-align: justify;
+        padding-top: 80px;
+        padding-left: 100px;
+    }
+
+    .imac-section-desc {
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 30px;
+        max-width: 400px;
+        margin: inherit;
+        text-align: left;
+    }
+
+    .pricing-table {
+        padding: 70px 0 100px;
+        max-width: 1050px;
+        margin: auto;
+    }
+
+}
+
+       /* Configurações aplicadas apenas em telas de celular/tablet */
+@media (max-width: 768px) {
+     .header-right {
+        display: block;
+        float: right;
+        padding: 6px 20px;
+        width: 100%;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    .header-btn {
+        float: none;
+        padding: 8px;
+        margin-top: 10px;
+    }
+
+    .hero {
+        border-top: 1px solid #ccc;
+        margin-top: 100px;
+    }
+    .hero-background {
+        background-image: url(../images/hero.jpg);
+        background-size: cover;
+        background-position-y: 180px;
+    }
+
+    .social-media{
+        text-align: right;
+    }
+
+    .item-name, .item-vinho-name {
+        font-size: 1.8em;
+    }
+
+    .item-price, .item-vinho-price {
+        font-size: 2.4em;
+    }
+
+    .item-desc, .item-vinho-desc {
+        font-size: 0.95em;
+        color: #555;
+        margin-top: -5px;
+    }
+
+    .item-img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .item-img img{
+        object-fit: cover;
+        max-width: 115px;
+        max-height: 115px;
+    }
+
+    .item-vinho-valores, .item-vinho-uvas {
+        font-size: 0.95em;
+    }
+
+     .item-vinho-valores .item-vinho-value {
+        display: block;
+        width:36%;
+        margin-bottom: 10px;
+    }
+
+    .item-vinho-valores .item-vinho-value img {
+       float: right;
+       margin-top: 3px;
+    }
+
+
+
+    section h2{
+        font-size: 3em;
+        width: 92%;
+    }
+
+    section .voltar-topo i{
+        font-size:1.2em;
+    }
+    .desktop {
+        display: none;
+    }
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #333;
+}
+
+.team {
+    padding-bottom: 130px;
+}
+
+.team-member {
+    text-align: center;
+}
+
+.email-form-div {
+    max-width: inherit;
+    margin: auto;
+}
+
+.webscope {
+    margin-top: 0;
+}
+
+.social-links {
+    float: right;
+}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+}

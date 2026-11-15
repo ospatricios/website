@@ -1,0 +1,74 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px; 
+    aspect-ratio: 1 / 1;
+    margin: 30px auto 0px auto;
+    overflow: hidden;
+  }
+
+  /* Configuração de cada slide */
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out; /* Efeito de transição suave */
+    z-index: 1;
+  }
+
+  /* Slide que está visível no momento */
+  .slide.active {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  /* Configuração da imagem dentro do slide */
+  .slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
+  }
+  
+  .slide-overlay {
+      position: absolute;
+      top: 80%;
+      right: 30px;
+      font-size: 1.5em;
+      
+      /* Estilos visuais (Opcional: fundo escuro semi-transparente e texto centralizado) */
+      background-color: #004882; 
+      color: #ebb960;
+      padding: 8px;
+      border-radius: 4px;
+      
+      /* Flexbox para centralizar o conteúdo da div */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  /* Controles (bolinhas de navegação na parte inferior) */
+  .indicators {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 3;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .dot.active, .dot:hover {
+    background-color: #ffffff;
+  }

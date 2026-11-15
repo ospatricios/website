@@ -1,0 +1,117 @@
+@import url('vars.css');
+
+body{
+    background: url('../images/bg-menu.jpg') top left repeat;
+}
+
+.cardapio-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cardapio-header h1{
+    font-family: "bradley-djr", sans-serif;
+    font-weight: 400;
+    color: var(--azul-patricios);
+    font-size: 4em;
+}
+
+.cardapio-links a{
+    font-family: "bradley-djr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--azul-patricios);
+    font-size: 1.6em;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: var(--dourado);
+    white-space: nowrap;
+    line-height: 2em;
+}
+
+.cardapio-links a:hover{
+    color: white;
+    background-color: var(--azul-patricios);
+}
+
+section h2{
+    font-family: "bradley-djr", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--azul-patricios);
+    font-size: 3.5em;
+    border-bottom: 2px solid var(--dourado);
+    width: 85%;
+}
+
+section .voltar-topo{
+    font-family: "gitan-latin", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--azul-patricios);
+    font-size:1em;
+    text-decoration: none;
+}
+.menu-item {
+    margin-bottom: 35px;
+    display: flex; /* Coloca os itens lado a lado em linha */
+    align-items: center; /* Centraliza os itens verticalmente */
+    gap: 15px; /* Cria um espaço de 15px entre as 3 divs */
+}
+
+.item-img {
+    border: 2px solid var(--dourado);
+    background-color: white;
+    width: 150px;
+    height: 150px;
+}
+
+.item-img.center{
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal (esquerda/direita) */
+    align-items: center;
+}
+
+.item-img img{
+    object-fit: cover;
+    max-width: 145px;
+    max-height: 145px;
+}
+
+
+.item-header {
+    flex: 1;
+    align-items: baseline;
+}
+
+.item-name {
+    font-size: 2.1em;
+    color: var(--azul-bacalhau);
+    margin-bottom: 0px;
+}
+
+.item-price {
+    font-size: 2.8em;
+    color: var(--azul-bacalhau);
+    white-space: nowrap;
+    margin-left: 15px;
+}
+
+.item-desc {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: -5px;
+}
+
+.subsection {
+    font-family: "bradley-djr", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: var(--azul-bacalhau);
+    width: 50%;
+    border-bottom: 1px solid var(--dourado);
+}

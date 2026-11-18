@@ -1,0 +1,429 @@
+:root {
+    --navy: #0F3B73;
+    --gold: #B8924B;
+    --cream: #FAF6ED;
+    --text-dark: #2C2C2C;
+    --text-light: #555555;
+    --bg-card: #FFFFFF;
+    --cor-secao: #202a51;
+}
+
+body {
+    background-color: #EAE3D2;
+    font-family: ferryman, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-dark);
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+.medium {
+    font-family: ferryman, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bold {
+    font-family: ferryman, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.extra-bold {
+    font-family: ferryman, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.menu-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: url('../images/natal/bg-pergaminho.jpg') top center repeat;
+    padding: 40px;
+    border: 2px solid var(--gold);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+/* Borda dupla estilo cardápio clássico */
+.menu-container::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 1px solid var(--navy);
+    pointer-events: none;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    flex-direction: row;
+    /* Coloca uma ao lado da outra (padrão do flex) */
+    justify-content: center;
+    /* Centraliza as imagens horizontalmente na página */
+    align-items: center;
+    /* Centraliza as imagens verticalmente */
+    gap: 20px;
+    /* Define o espaço entre as imagens */
+
+    width: stretch;
+    /* Garante que o header ocupe toda a largura */
+    padding: 20px;
+    /* Dá um respiro em volta das imagens */
+    margin-bottom: 40px;
+    border-bottom: 2px solid var(--gold);
+}
+
+.header hr {
+    border: none;
+    /* Remove a formatação padrão do navegador */
+    border-top: 1px solid var(--gold);
+    width: 100%;
+}
+
+.img-header {
+    max-width: 100%;
+    height: auto;
+    /* Mantém a proporção da imagem */
+}
+
+.subtitle {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--navy);
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.title-brand {
+
+    font-size: 3.5em;
+    color: var(--navy);
+    margin: 0;
+    line-height: 1.1;
+}
+
+.since {
+    font-size: 0.85em;
+    letter-spacing: 2px;
+    color: var(--gold);
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.event-title {
+
+    font-size: 2em;
+    color: #8B1E15;
+    /* Vermelho natalino elegante */
+    margin: 20px 0 10px 0;
+}
+
+.intro-text {
+    text-align: center;
+    width: 85%;
+    font-size: 1.4em;
+    color: var(--text-light);
+    margin: 0 auto 40px 7.5%;
+}
+
+/* SECTION TITLES */
+.section-title {
+    font-size: 2.8em;
+    color: var(--cor-secao);
+    text-align: center;
+    margin: 40px 0 10px 0;
+    text-shadow: -2px 2px 0 #ebb960;
+}
+
+.section-desc {
+    text-align: center;
+    width: 75%;
+    margin-left: 12.5%;
+    font-size: 1.4em;
+    color: var(--text-light);
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+/* ITEM ROWS */
+.item-row {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.item-row::after {
+    content: "";
+    /* Obrigatório, mesmo que vazio */
+    display: block;
+    /* Permite aplicar largura, altura e margens */
+
+    /* Dimensões do espaço da imagem */
+    width: 250px;
+    height: 44px;
+
+    /* Configurações da imagem */
+    background-image: url('../images/natal/separador.png');
+    background-size: contain;
+    /* Faz a imagem caber dentro do espaço sem cortar */
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Margens: 20px em cima/baixo, automático (centralizado) nas laterais */
+    margin: 35px auto -10px auto;
+}
+
+.item-row:last-child::after {
+    display: none;
+}
+
+.item-row:last-child {
+    border-bottom: none;
+}
+
+.item-header {
+    margin-bottom: 8px;
+}
+
+.item-name {
+    font-size: 2.6em;
+    color: #9f3e35;
+    font-weight: 500;
+    text-shadow: -1px 1px 0 #ebb960;
+    margin: 0;
+}
+
+.item-price-unit {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #521914;
+}
+
+.item-price-unit sup {
+    font-size: 0.55em;
+    vertical-align: super;
+}
+
+.item-desc {
+    font-size: 1.4em;
+    color: var(--text-light);
+    margin-bottom: 8px;
+    width: 75%;
+    margin-left: 12.5%;
+}
+
+.item-note {
+    font-size: 1em;
+    font-style: italic;
+    color: #8B1E15;
+    margin-bottom: 15px;
+}
+
+/* PRICE CARDS (For Portions) */
+.price-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin-top: 15px;
+}
+
+.price-card {
+    position: relative;
+    text-align: center;
+    flex: 1;
+    min-width: 90px;
+}
+
+.price-card::after {
+    content: "";
+    position: absolute;
+
+    /* Dimensões da sua imagem */
+    width: 45px;
+    height: 45px;
+    background-image: url('../images/natal/guirlanda-separadora.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* Posicionamento mágico: joga a imagem para a direita, para fora do card */
+    top: 50%;
+    /* Alinha no meio verticalmente */
+    right: -22px;
+    /* Move para a direita (deve ser metade do valor do gap) */
+    transform: translate(50%, -50%);
+    /* Centraliza o ícone exatamente no eixo */
+
+    z-index: 1;
+    /* Garante que a imagem fique por cima, se o gap for pequeno */
+}
+
+.price-card:last-child:after {
+    display: none;
+}
+
+.card-price {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #521914;
+    margin-bottom: -8px;
+}
+
+.card-pax {
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #8B1E15;
+    margin-bottom: 2px;
+}
+
+.card-per-pax {
+    font-size: 0.85em;
+    color: var(--text-light);
+}
+
+.card-per-pax sup {
+    font-size: 0.55em;
+    margin-top: 0.55em;
+}
+
+
+/* CONDITIONS */
+.conditions {
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.conditions h3 {
+    font-size: 2.8em;
+    color: var(--cor-secao);
+    text-align: center;
+    margin: 40px 0 10px 0;
+    text-shadow: -2px 2px 0 #ebb960;
+}
+
+.conditions ul {
+    padding-left: 20px;
+    font-size: 1.4em;
+}
+
+.conditions li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.4em;
+    color: var(--navy);
+}
+
+.footer a {
+    color: var(--navy);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: var(--gold);
+}
+
+/* SHARE BUTTONS */
+.share-container {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px dashed #D3C4A3;
+    font-family: sans-serif;
+}
+
+.share-title {
+    font-family: ferryman, sans-serif;
+    color: var(--cor-secao);
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.share-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.share-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: var(--navy);
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.share-btn:hover {
+    transform: scale(1.1);
+}
+
+.share-btn.wa:hover {
+    background-color: #25D366;
+}
+
+.share-btn.fb:hover {
+    background-color: #1877F2;
+}
+
+.share-btn.ig:hover {
+    background-color: #E4405F;
+}
+
+.share-icon {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        border-bottom: 2px solid var(--gold);
+        width: stretch;
+    }
+
+    .menu-container {
+        padding: 20px;
+    }
+
+    .title-brand {
+        font-size: 2.5em;
+    }
+
+    .event-title {
+        font-size: 1.5em;
+    }
+
+    .item-header {
+        flex-direction: column;
+    }
+
+    .item-price-unit {
+        margin-top: 5px;
+    }
+
+    .price-card {
+        min-width: 45%;
+    }
+
+    .price-card::after {
+        display: none;
+    }
+}

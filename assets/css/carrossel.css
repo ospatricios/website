@@ -19,6 +19,7 @@
     height: 75vh; /* Ajuste a altura conforme preferir (ex: 500px, 80vh) */
     min-height: 400px;
     overflow: hidden;
+
 }
 
 .slides-wrapper {
@@ -43,6 +44,7 @@
     justify-content: center;
     text-align: center;
     color: #ffffff;
+    z-index: 2;
 }
 
 /* Slide ativo que fica visível na tela */

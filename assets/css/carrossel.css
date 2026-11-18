@@ -7,68 +7,156 @@
     overflow: hidden;
   }
 
-  /* Configuração de cada slide */
-  .slide {
+  /* ==========================================================================
+   ESTILOS DO CARROSSEL / SLIDESHOW
+   Arquivo: assets/css/carrossel.css
+   ========================================================================== */
+
+/* Contêiner principal do slideshow */
+#slideshow-container {
+    position: relative;
+    width: 100%;
+    height: 75vh; /* Ajuste a altura conforme preferir (ex: 500px, 80vh) */
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.slides-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+/* Configuração base de cada slide */
+.slide {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     opacity: 0;
-    transition: opacity 0.8s ease-in-out; /* Efeito de transição suave */
-    z-index: 1;
-  }
+    transition: opacity 0.8s ease-in-out; /* Suavidade na troca de imagens */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
 
-  /* Slide que está visível no momento */
-  .slide.active {
+/* Slide ativo que fica visível na tela */
+.slide.active {
     opacity: 1;
-    z-index: 2;
-  }
+    z-index: 1;
+}
 
-  /* Configuração da imagem dentro do slide */
-  .slide img {
+/* Contêiner do texto e botão (animação de subida) */
+.slide-content {
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer */
-  }
-  
-  .slide-overlay {
-      position: absolute;
-      top: 80%;
-      right: 30px;
-      font-size: 1.5em;
-      
-      /* Estilos visuais (Opcional: fundo escuro semi-transparente e texto centralizado) */
-      background-color: #004882; 
-      color: #ebb960;
-      padding: 8px;
-      border-radius: 4px;
-      
-      /* Flexbox para centralizar o conteúdo da div */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-  /* Controles (bolinhas de navegação na parte inferior) */
-  .indicators {
+    z-index: 2;
+}
+
+.slide.active .slide-content {
+    transform: translateY(0);
+}
+
+/* Tipografia do Slideshow */
+.slide-content h2 {
+    text-align: center;
+    font-size: 3.0rem;
+    margin-top: 240px;
+    margin-bottom: 1.2rem;
+    padding: 20px;
+    color:#ebb960;
+    transform: translateY(30px);
+    transition: transform 0.8s ease;
+    background: #004882;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+/* ==========================================================================
+   NAVEGAÇÃO (SETAS E BOLINHAS)
+   ========================================================================== */
+
+/* Setas Laterais */
+.slide-nav {
     position: absolute;
-    bottom: 15px;
+    top: 77.5%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 15px 20px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.3s ease;
+}
+
+.slide-nav:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.slide-nav.prev {
+    left: 20px;
+    border-radius: 4px;
+}
+
+.slide-nav.next {
+    right: 20px;
+    border-radius: 4px;
+}
+
+/* Bolinhas (Indicadores inferiores) */
+.slide-indicators {
+    position: absolute;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 10;
     display: flex;
-    gap: 10px;
-    z-index: 3;
-  }
+    gap: 12px;
+}
 
-  .dot {
-    width: 12px;
-    height: 12px;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
+/* ==========================================================================
+   RESPONSIVIDADE (CELULARES E TABLETS)
+   ========================================================================== */
+@media (max-width: 768px) {
+    #slideshow-container {
+        height: 60vh;
+    }
 
-  .dot.active, .dot:hover {
-    background-color: #ffffff;
-  }
+    .slide-content h2 {
+        font-size: 2.2rem;
+    }
+
+    .slide-content h2 {
+        text-align: center;
+        font-size: 2.3rem;
+        margin-top: 260px;
+        margin-bottom: 1.2rem;
+        padding: 15px;
+        color:#ebb960;
+        transform: translateY(30px);
+        transition: transform 0.8s ease;
+        background: #004882;
+        border-radius: 8px;
+    }
+
+    .slide-nav {
+      position: absolute;
+      top: 87.5%;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, 0.4);
+      color: white;
+      border: none;
+      font-size: 1.5rem;
+      padding: 10px 15px;
+      cursor: pointer;
+      z-index: 10;
+      transition: background 0.3s ease;
+}
+
+}

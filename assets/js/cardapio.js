@@ -9,7 +9,7 @@
 
     // Função para renderizar o cardápio
     function carregarCardapio() {
-        fetch('cardapio.json')
+        fetch('../assets/json/cardapio.json')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Falha ao carregar o cardápio.');
